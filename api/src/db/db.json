@@ -1,7 +1,91 @@
 {
-  "user": {
-    "id": "jBWMVGjm50l6LGwepDoty",
-    "username": "frontendmaster"
-  },
-  "pet": []
+  "user": [
+    {
+      "id": 1,
+      "username": "Leon",
+      "petslist": [
+        "1",
+        "2",
+        "6",
+        "n3hn1xiQDNkYcxnrbsguN"
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Maciek",
+      "petslist": [
+        "4",
+        "5",
+        "7"
+      ]
+    },
+    {
+      "id": 3,
+      "username": "Barbara",
+      "petslist": [
+        "3"
+      ]
+    }
+  ],
+  "pet": [
+    {
+      "id": "1",
+      "name": "Spike",
+      "race": "Buldog",
+      "type": "Dog",
+      "user": 1
+    },
+    {
+      "id": "2",
+      "name": "Kruger",
+      "race": "Mix",
+      "type": "Dog",
+      "user": 1
+    },
+    {
+      "id": "3",
+      "name": "Butcher",
+      "race": "Buldog",
+      "type": "Dog",
+      "user": 3
+    },
+    {
+      "id": "4",
+      "name": "Frustrate",
+      "race": "Hounddog",
+      "type": "Dog",
+      "user": 2
+    },
+    {
+      "id": "5",
+      "name": "Querry",
+      "race": "Cogi",
+      "type": "Dog",
+      "user": 2
+    },
+    {
+      "id": "6",
+      "name": "Garfield",
+      "race": "Mix",
+      "fur": "SHORT",
+      "type": "Cat",
+      "user": 1
+    },
+    {
+      "id": "7",
+      "name": "Ra",
+      "race": "Mix",
+      "fur": "SHORT",
+      "type": "Cat",
+      "user": 2
+    },
+    {
+      "id": "n3hn1xiQDNkYcxnrbsguN",
+      "createdAt": 1668254017891,
+      "name": "Teddy",
+      "type": "Dog",
+      "race": "Mix",
+      "user": 1
+    }
+  ]
 }
