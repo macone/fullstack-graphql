@@ -32,35 +32,35 @@
       "id": "1",
       "name": "Spike",
       "race": "Buldog",
-      "type": "Dog",
+      "type": "DOG",
       "user": 1
     },
     {
       "id": "2",
       "name": "Kruger",
       "race": "Mix",
-      "type": "Dog",
+      "type": "DOG",
       "user": 1
     },
     {
       "id": "3",
       "name": "Butcher",
       "race": "Buldog",
-      "type": "Dog",
+      "type": "DOG",
       "user": 3
     },
     {
       "id": "4",
       "name": "Frustrate",
       "race": "Hounddog",
-      "type": "Dog",
+      "type": "DOG",
       "user": 2
     },
     {
       "id": "5",
       "name": "Querry",
       "race": "Cogi",
-      "type": "Dog",
+      "type": "DOG",
       "user": 2
     },
     {
@@ -68,7 +68,7 @@
       "name": "Garfield",
       "race": "Mix",
       "fur": "SHORT",
-      "type": "Cat",
+      "type": "CAT",
       "user": 1
     },
     {
@@ -76,16 +76,88 @@
       "name": "Ra",
       "race": "Mix",
       "fur": "SHORT",
-      "type": "Cat",
+      "type": "CAT",
       "user": 2
     },
     {
       "id": "n3hn1xiQDNkYcxnrbsguN",
       "createdAt": 1668254017891,
       "name": "Teddy",
-      "type": "Dog",
+      "type": "DOG",
       "race": "Mix",
       "user": 1
+    },
+    {
+      "id": "ucynH-KQFcUM_nPLNDADH",
+      "createdAt": 1669289187311,
+      "name": "NoOwner",
+      "type": "DOG"
+    },
+    {
+      "id": "N51sCnCR89Cd2rQTMmcQe",
+      "createdAt": 1669289207858,
+      "name": "Another One",
+      "type": "DOG"
+    },
+    {
+      "id": "GSQayHfFRe9rhmTBRZO-n",
+      "createdAt": 1669290839320,
+      "name": "number 3",
+      "type": "CAT"
+    },
+    {
+      "id": "HO25V0c2Kp2BMM4SW-l79",
+      "createdAt": 1669290891655,
+      "name": "number 4",
+      "type": "DOG"
+    },
+    {
+      "id": "iVKeG3s5ShuMR_hmcRtX_",
+      "createdAt": 1669290923337,
+      "name": "num 5",
+      "type": "DOG"
+    },
+    {
+      "id": "M04LNfQytTg82lUkd_pSu",
+      "createdAt": 1669290968444,
+      "name": "number 6",
+      "type": "DOG"
+    },
+    {
+      "id": "k2JPx3zYTj8yqU0j4oB9w",
+      "createdAt": 1669290998190,
+      "name": "number 7",
+      "type": "CAT"
+    },
+    {
+      "id": "v-5ZgA-yCkZTTkJ6lEwtk",
+      "createdAt": 1669291348479,
+      "name": "Mike",
+      "type": "DOG"
+    },
+    {
+      "id": "-YWvUt6rFpeDt-hlA-6F8",
+      "createdAt": 1669316968335,
+      "name": "asdasd",
+      "type": "DOG"
+    },
+    {
+      "id": "ac-JKF1eyfYyRK60RfQUj",
+      "createdAt": 1669317010000,
+      "name": "werty",
+      "type": "DOG"
+    },
+    {
+      "id": "DfdOtvxGF1deKrptn05iv",
+      "createdAt": 1669317114961,
+      "name": "opi",
+      "type": "DOG"
+    },
+    {
+      "id": "6BTVVilqg5Fxfnw4wCVp7",
+      "createdAt": 1669317190185,
+      "name": "vbcbv",
+      "type": "DOG"
     }
   ]
 }

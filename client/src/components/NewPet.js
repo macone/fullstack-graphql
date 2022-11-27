@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Select from 'react-select'
 
 const options = [
@@ -6,7 +6,7 @@ const options = [
   { value: 'DOG', label: 'Dog' }
 ]
 
-export default function NewPet({onSubmit, onCancel}) {
+export default function NewPet({ onSubmit, onCancel }) {
   const [type, setType] = useState('DOG')
   const [name, setName] = useState('')
 
@@ -14,7 +14,7 @@ export default function NewPet({onSubmit, onCancel}) {
 
   const submit = e => {
     e.preventDefault()
-    onSubmit({name, type})
+    onSubmit({ name, type })
   }
 
   const cancel = e => {
@@ -42,7 +42,7 @@ export default function NewPet({onSubmit, onCancel}) {
             onChange={e => setName(e.target.value)}
             required
           />
-          <a className="error button" onClick={cancel}>cancel</a>          
+          <a className="error button" onClick={cancel}>cancel</a>
           <button type="submit" name="submit">add pet</button>
         </form>
       </div>

@@ -3,7 +3,7 @@
  * the type definitions in your scheama
  */
 
-const { inputCSS } = require("react-select/dist/chunk-4ceb843c.cjs.prod")
+// const { inputCSS } = require("react-select/dist/chunk-4ceb843c.cjs.prod")
 
 module.exports = {
   Query: {
@@ -38,29 +38,34 @@ module.exports = {
   },
 
   Mutation: {
-    newPet(_, { input }, ctx) {
-      const result = ctx.models.Pet.create(input)
+    newPet(_, { input }, { models, user }) {
+      const result = models.Pet.create({ ...input, user: user?.id })
       return result
     }
 
   },
   Pet: {
     __resolveType(pet) {
-      if (pet.fur) { return "Cat" } else { return "Dog" }
+      if (pet.type === "CAT") { return "Cat" } else { return "Dog" }
     }
-
   },
   Cat: {
     owner(cat, _, ctx) {
       console.log("cat => OWNER")
       return ctx.models.User.findOne(el => el.id === cat.user)
-    }
+    },
+    img() {
+      return 'http://placekitten.com/300/300?r'
+    },
   },
   Dog: {
     owner(dog, _, ctx) {
       console.log("dog => OWNER")
       return ctx.models.User.findOne(el => el.id === dog.user)
-    }
+    },
+    img() {
+      return 'https://placedog.net/300/300?random'
+    },
   },
   User: {
     pets(user, _, ctx) {
